@@ -4,11 +4,15 @@ import { HTMLContainerComponent } from './htmlcontainer';
 import { DataTableComponent } from './datatable';
 import { DataValueComponent } from './datavalue';
 import { InputComponent } from './input/input';
+import { TusFileComponent } from './tusfile';
+import { UppyFileComponent } from './uppyfile';
 export { HTML, HTMLComponent } from './html';
 export { HTMLContainer, HTMLContainerComponent } from './htmlcontainer';
 export { DataTable, DataTableComponent } from './datatable';
 export { DataValueComponent } from './datavalue';
 export { Input, InputComponent } from './input/input';
+export { TusFile, TusFileComponent, TusFileProperties } from './tusfile';
+export { UppyFile, UppyFileComponent, UppyFileProperties } from './uppyfile';
 export default {
   components: {
     html: HTMLComponent,
@@ -16,6 +20,8 @@ export default {
     datatable: DataTableComponent,
     datavalue: DataValueComponent,
     input: InputComponent,
+    tusfile: TusFileComponent,
+    uppyfile: UppyFileComponent,
   },
   templates,
 };
