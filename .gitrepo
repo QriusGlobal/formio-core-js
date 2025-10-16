@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/QriusGlobal/formio-core-js.git
 	branch = main
-	commit =
-	parent =
+	commit = d806efc22d0fa7366a15377ae9965afbb102e3aa
+	parent = 7fd08c9d5a3ff598e5c90915c6bb86eb1e08e7c8
 	method = merge
 	cmdver = 0.4.9
